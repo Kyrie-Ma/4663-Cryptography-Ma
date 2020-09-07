@@ -1,6 +1,6 @@
 import sys
 import os
-import requests
+##import requests
 
 alphabet = [chr(x+97) for x in range(26)]
 
@@ -36,14 +36,17 @@ class Frequency():
         return None
 
 if __name__=='__main__':
-    url = "https://www.gutenberg.org/files/2701/2701-0.txt"
+    #url = "https://www.gutenberg.org/files/2701/2701-0.txt"
     #url = "https://www.gutenberg.org/files/2600/2600-0.txt"
-    print("Downloading book ...")
-    f = requests.get(url)
-    text = f.text
+    #print("Downloading book ...")
+    #f = requests.get(url)
+    #f = open("ciphertext.txt","r")
+    text = open("ciphertext_1.txt","r").readline()
+    text.lower()
+    #text = f.text
 
 
-    print("Calculating frequency...")
+    #print("Calculating frequency...")
     F = Frequency()
 
     F.count(text)

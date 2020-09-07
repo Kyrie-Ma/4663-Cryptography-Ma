@@ -20,7 +20,7 @@ print(subs)
 plaintext = "".upper()
 
 # here is where you would write to the out file
-f = open("P01/ciphertext.txt","w")
+f = open("ciphertext.txt","w")
 
 # performs the substitution
 for p in plaintext:
