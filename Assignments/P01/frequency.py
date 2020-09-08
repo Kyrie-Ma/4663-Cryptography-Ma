@@ -2,6 +2,7 @@ import sys
 import os
 ##import requests
 
+
 alphabet = [chr(x+97) for x in range(26)]
 
 class Frequency():
@@ -43,6 +44,7 @@ if __name__=='__main__':
     #f = open("ciphertext.txt","r")
     text = open("ciphertext_1.txt","r").readline()
     text.lower()
+    print(text.read())
     #text = f.text
 
 
