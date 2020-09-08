@@ -2,4 +2,4 @@
 
 | Number | Folder | Description |
 | :----: | ------ | ----------- |
-| A03 | <a href="https://github.com/Kyrie-Ma/4663-Cryptography-Ma/new/master/Assignments/P01" >  A03 | frequency program |
+| A03 | <a href="https://github.com/Kyrie-Ma/4663-Cryptography-Ma/tree/master/Assignments/A03" >  A03 | frequency program |
