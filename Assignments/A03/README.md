@@ -11,9 +11,6 @@ It is not a shift cipher, so you cant brute force the shift value! So the only w
 ## First (easy)
 Run a frequency analysis on the file ciphertext_1.txt and substitute each letter based on the calculated frequency using the table below. Punctuation is left for readability. All words are english words and the frequency distribution is a perfect match for the graph at the top. The text is common enough for you to deduce what it is, and google the answer. So, it may not be vital to save earth, but it is vital for your grade :)
 
-### First result picture:
 
 ## Second (medium)
 Now do the same for ciphertext_2.txt and substitute again based on frequency. This one doesn't line up perfectly, but close enough to not make it too hard. This one is not as common as the first. But it is part of an extremely famous book. And part of a famous movie rant. So, good luck.
-
-### Second result picture:
