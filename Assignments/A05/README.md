@@ -15,3 +15,7 @@ print the key-length first
 print the keyword when found
 print the first 50 words of the message after decryption
 You must run your program like the following:
+
+|   #   | File            | Description                                        |
+| :---: | --------------- | -------------------------------------------------- |
+|   1   | <a href="" > break_vig.py | Main program file      |
