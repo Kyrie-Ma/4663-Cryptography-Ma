@@ -1,6 +1,5 @@
 ## Pratt Certificate
  The Pratt certificate is a primality certificate based on Fermat's little theorem converse.
-#
  To generate a Pratt certificate, assume that n is a positive integer and {p_i} is the set of prime factors of n-1. Suppose there exists an integer x such that x^(n-1)=1 (mod n) but x^e≢1 (mod n) whenever e is one of (n-1)/p_i. Then Fermat's little theorem converse states that n is prime.
  ![2020-10-22](https://user-images.githubusercontent.com/60235679/96859387-11368d80-1427-11eb-8551-f783d645caf6.png)
 #### Source: https://mathworld.wolfram.com/PrattCertificate.html
