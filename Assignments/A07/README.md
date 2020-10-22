@@ -4,8 +4,9 @@
  ![2020-10-22](https://user-images.githubusercontent.com/60235679/96859387-11368d80-1427-11eb-8551-f783d645caf6.png)
 #### Source: https://mathworld.wolfram.com/PrattCertificate.html
 
-### Lucas' theorem: Suppose we have an integer a such that:
+### Lucas' theorem: 
 ```
+Suppose we have an integer a such that:
  an − 1 ≡ 1 (mod n),
  for every prime factor q of n − 1, it is not the case that a(n − 1)/q ≡ 1 (mod n).
 Then n is prime.
