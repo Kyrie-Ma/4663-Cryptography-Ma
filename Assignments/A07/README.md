@@ -35,3 +35,20 @@ even though 341 = 11·31 is composite. In fact, 341 is the smallest pseudoprime 
 
 ## Miller–Rabin and Solovay–Strassen primality test
  ![2020-10-22 (2)](https://user-images.githubusercontent.com/60235679/96861399-a89ce000-1429-11eb-9aaa-ae4255c4f0fb.png)
+ #### Source: https://en.wikipedia.org/wiki/Primality_test
+ 
+ ## AKS primality test
+  The AKS primality test is based upon the following theorem: Given an integer n >= 2 and integer a coprime to n, n is prime if and only if the polynomial congruence relation (x + a)^n = (x^n + a) (mod n) holds. Note that x should be understood as formal symbol.
+  ![2020-10-22 (3)](https://user-images.githubusercontent.com/60235679/96861971-7a6bd000-142a-11eb-860d-46aebddd5bd2.png)
+ #### Source: https://en.wikipedia.org/wiki/AKS_primality_test
+ 
+ ## Miller-Rabin test
+ ```
+  The Miller-Rabin test is actually a sequence of tests, one for each prime number. First you run the test associated with 2, then the test associated with 3, then the one associated with 5, etc. If we knew the smallest numbers for which these tests fail, then for smaller numbers we know for certain that they’re prime if they pass. In other words, we can turn the Miller-Rabin test for probable primes into test for provable primes.
+```
+Miller and Rabin’s extra testing starts by factoring n-1 into 2sd where d is odd. If n is prime, then for all 0 < a < n either 
+```
+  a^d = 1 (mod n) or a^(d(2)^k) = -1 (mod n) 
+```
+for all k satisfying 0 ≤ k < s. If one of these two conditions holds for a particular a, then n passes the Miller-Rabin test for the base a.
+#### Source: https://www.johndcook.com/blog/2019/02/25/prime-test/
