@@ -23,3 +23,14 @@ a positive integer n not divisible by 2 or 3;
 ```
 Then M = (Mx, My) is a non-identity point on the elliptic curve y^2 = x^3 + Ax + B. Let kM be M added to itself k times using standard elliptic-curve addition. Then, if qM is the identity element I, then n is prime.
   #### Source: https://en.wikipedia.org/wiki/Primality_certificate
+  
+  ### Fermat primality test
+```
+The simplest probabilistic primality test is the Fermat primality test (actually a compositeness test). It works as follows:
+  Given an integer n, choose some integer a coprime to n and calculate an − 1 modulo n. If the result is different from 1, then n is composite. If it is 1, then n may be prime.
+If a^(n−1) (modulo n) is 1 but n is not prime, then n is called a pseudoprime to base a. In practice, we observe that, if an−1 (modulo n) is 1, then n is usually prime. But here is a counterexample: if n = 341 and a = 2, then 2^340 = 1 (mod 341)
+even though 341 = 11·31 is composite. In fact, 341 is the smallest pseudoprime base 2.
+```
+#### Source: https://en.wikipedia.org/wiki/Primality_test
+ ### Miller–Rabin and Solovay–Strassen primality test
+ ![2020-10-22 (2)](https://user-images.githubusercontent.com/60235679/96861399-a89ce000-1429-11eb-9aaa-ae4255c4f0fb.png)
