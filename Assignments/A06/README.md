@@ -13,4 +13,6 @@
 
 |   #   | File            | Description                                        |
 | :---: | --------------- | -------------------------------------------------- |
-|   1   | <a href="https://github.com/Kyrie-Ma/4663-Cryptography-Ma/blob/master/Assignments/A06/get_factors.py" > get_factors.py | Main program file      |
+|   1   | <a href="https://github.com/Kyrie-Ma/4663-Cryptography-Ma/blob/master/Assignments/A06/get_factors.cpp" > get_factors.cpp | Main program file      |
+|   2   | <a href="https://github.com/Kyrie-Ma/4663-Cryptography-Ma/blob/master/Assignments/A06/infile.txt" > infile.txt | infile      |
+|   3   | <a href="https://github.com/Kyrie-Ma/4663-Cryptography-Ma/blob/master/Assignments/A06/outfile.txt" > outfile.txt | outfile      |
