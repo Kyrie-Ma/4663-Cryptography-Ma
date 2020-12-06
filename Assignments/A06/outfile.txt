@@ -1,0 +1,4 @@
+Number 1 :231697363 - Factors: 419 * 607 * 911
+Number 2 :709 - Prime 
+Number 3 :246641520135 - Factors: 3 * 5 * 401 * 41004409
+Number 4 :72490732415291 - Factors: 1973 * 147503 * 249089
