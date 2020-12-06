@@ -71,38 +71,7 @@ class AdfgxLookup:
         return self.polybius
 
     def build_polybius_lookup(self,key=None):
-        """ Builds a lookup dictionary so we can get the two letter pairs for each
-            polybius letter. 
-            Example:
-                key = superbatzy
-                polybius = superbatzycdfghiklmnoqvwx
-                lookup = 
-                {'a': 'DD',
-                'b': 'DA',
-                'c': 'FA',
-                'd': 'FD',
-                'e': 'AG',
-                'f': 'FF',
-                'g': 'FG',
-                'h': 'FX',
-                'i': 'GA',
-                'k': 'GD',
-                'l': 'GF',
-                'm': 'GG',
-                'n': 'GX',
-                'o': 'XA',
-                'p': 'AF',
-                'q': 'XD',
-                'r': 'AX',
-                's': 'AA',
-                't': 'DF',
-                'u': 'AD',
-                'v': 'XF',
-                'w': 'XG',
-                'x': 'XX',
-                'y': 'DX',
-                'z': 'DG'}
-        """
+
         if key != None:
             self.key = self.remove_duplicates(key)
 
