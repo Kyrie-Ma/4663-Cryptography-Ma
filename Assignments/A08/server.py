@@ -18,12 +18,13 @@ app = Flask(__name__)               # set app here so its globale
 CORS(app)
 
 
-
-#    ____   ___  _   _ _____ _____ ____  
-#   |  _ \ / _ \| | | |_   _| ____/ ___| 
-#   | |_) | | | | | | | | | |  _| \___ \ 
-#   |  _ <| |_| | |_| | | | | |___ ___) |
-#   |_| \_\\___/ \___/  |_| |_____|____/ 
+"""
+   ____   ___  _   _ _____ _____ ____  
+  |  _ \ / _ \| | | |_   _| ____/ ___| 
+  | |_) | | | | | | | | | |  _| \___ \ 
+  |  _ <| |_| | |_| | | | | |___ ___) |
+  |_| \_\\___/ \___/  |_| |_____|____/ 
+"""
 
 @app.route("/", methods=["GET"])
 def getRoutes():
@@ -108,13 +109,25 @@ def public_key(id):
             key = f.read() 
         
         return handle_response({"public_key":key},{"id":id})
-    
 
-#   __  __ ___ ____   ____    _____ _   _ _   _  ____ _____ ___ ___  _   _ ____  
-#  |  \/  |_ _/ ___| / ___|  |  ___| | | | \ | |/ ___|_   _|_ _/ _ \| \ | / ___| 
-#  | |\/| || |\___ \| |      | |_  | | | |  \| | |     | |  | | | | |  \| \___ \ 
-#  | |  | || | ___) | |___   |  _| | |_| | |\  | |___  | |  | | |_| | |\  |___) |
-#  |_|  |_|___|____/ \____|  |_|    \___/|_| \_|\____| |_| |___\___/|_| \_|____/ 
+@app.route('/message', methods = ['GET', 'POST', 'DELETE'])
+def message_handler():
+    """ public_key
+        Description: receives messages
+    """
+    print(request.method)
+    print(request.json)
+
+    with open("messages.txt","w") as f:
+        f.write(json.dumps(request.json))
+
+    return request.json   
+
+#   _   _ _____ _     ____  _____ ____  
+#  | | | | ____| |   |  _ \| ____|  _ \ 
+#  | |_| |  _| | |   | |_) |  _| | |_) |
+#  |  _  | |___| |___|  __/| |___|  _ < 
+#  |_| |_|_____|_____|_|   |_____|_| \_\
 
 def load_public_keys(path):
     """ This reads a directory (path) for .pem files
@@ -147,13 +160,6 @@ def formatHelp(route):
         clean_help = "No Help Provided."
     return clean_help
 
-#   ____  _____ ____  ____   ___  _   _ ____  _____ 
-#  |  _ \| ____/ ___||  _ \ / _ \| \ | / ___|| ____|
-#  | |_) |  _| \___ \| |_) | | | |  \| \___ \|  _|  
-#  |  _ <| |___ ___) |  __/| |_| | |\  |___) | |___ 
-#  |_| \_\_____|____/|_|    \___/|_| \_|____/|_____|
-                                                  
-
 def handle_response(data,params=None,error=None):
     """ handle_response
     """
@@ -178,4 +184,3 @@ def handle_response(data,params=None,error=None):
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8080,debug=True)
-      
