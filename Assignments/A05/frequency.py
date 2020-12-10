@@ -33,10 +33,10 @@ class Frequency():
 
         return None
 
-if __name__=='__main__':
-    f = open("frequency_1.txt","w")
-    text = open("ciphertext_1.txt","r").readline()
-    text.lower()
-    F = Frequency()
-    F.count(text)
-    F.print()
+#if __name__=='__main__':
+    #f = open("frequency_1.txt","w")
+    #text = open("ciphertext_1.txt","r").readline()
+    #text.lower()
+    #F = Frequency()
+    #F.count(text)
+    #F.print()
