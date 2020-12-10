@@ -20,7 +20,6 @@ class Frequency():
             if l in alphabet:
                 self.freq[l] += 1
 
-        # https://realpython.com/python-lambda/
         self.sort_freq = sorted(self.freq.items(), key=lambda x: x[1], reverse=True)
 
     def print(self):
