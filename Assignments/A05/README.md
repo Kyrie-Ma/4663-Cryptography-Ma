@@ -19,3 +19,7 @@ Using the dictionary provided here and your newly discovered keylength, find all
 |   #   | File            | Description                                        |
 | :---: | --------------- | -------------------------------------------------- |
 |   1   | <a href="https://github.com/Kyrie-Ma/4663-Cryptography-Ma/blob/master/Assignments/A05/break_vig.py" > break_vig.py | Main program file      |
+|   2   | <a href="https://github.com/Kyrie-Ma/4663-Cryptography-Ma/blob/master/Assignments/A05/frequency.py" > frequency.py | frequency.py      |
+|   3   | <a href="https://github.com/Kyrie-Ma/4663-Cryptography-Ma/blob/master/Assignments/A05/encrypted.txt" > encrypted.txt | encrypted.txt      |
+|   4   | <a href="https://github.com/Kyrie-Ma/4663-Cryptography-Ma/blob/master/Assignments/A05/decrypted.txt" > decrypted.txt | decrypted.txt      |
+|   5   | <a href="https://github.com/Kyrie-Ma/4663-Cryptography-Ma/blob/master/Assignments/A05/dictionary_words.txt" > dictionary_words.txt | dictionary_words.txt      |
