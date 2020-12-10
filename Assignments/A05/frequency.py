@@ -38,22 +38,8 @@ class Frequency():
 
 if __name__=='__main__':
     f = open("frequency_1.txt","w")
-    #url = "https://www.gutenberg.org/files/2701/2701-0.txt"
-    #url = "https://www.gutenberg.org/files/2600/2600-0.txt"
-    #print("Downloading book ...")
-    #f = requests.get(url)
-    #f = open("ciphertext.txt","r")
     text = open("ciphertext_1.txt","r").readline()
     text.lower()
-    #print(text.read())
-    #text = f.text
-
-
-    #print("Calculating frequency...")
     F = Frequency()
-
     F.count(text)
-
     F.print()
-
-    #print(F.getNth(2))
