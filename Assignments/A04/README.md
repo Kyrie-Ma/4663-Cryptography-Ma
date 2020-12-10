@@ -7,4 +7,5 @@ The ADFGX cipher was a field cipher used by the German Army during World War I. 
 | :---: | --------------- | -------------------------------------------------- |
 |   1   | <a href="https://github.com/Kyrie-Ma/4663-Cryptography-Ma/blob/master/Assignments/A04/adfgx.py" > adfgx.py         | Main program file      |
 |   2   | <a href="https://github.com/Kyrie-Ma/4663-Cryptography-Ma/blob/master/Assignments/A04/fractionate.py" > fractionate.py         | fractionate.py      |
-|   3   | <a href="https://github.com/Kyrie-Ma/4663-Cryptography-Ma/blob/master/Assignments/A04/polybius.py" > polybius.py         | polybius.py      |
+|   3   | <a href="https://github.com/Kyrie-Ma/4663-Cryptography-Ma/blob/master/Assignments/A04/plaintext.txt" > plaintext.txt         | plaintext.txt      |
+|   3   | <a href="https://github.com/Kyrie-Ma/4663-Cryptography-Ma/blob/master/Assignments/A04/plaintext.txt" > plaintext.txt         | plaintext.txt      |
