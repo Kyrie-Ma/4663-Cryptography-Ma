@@ -158,7 +158,7 @@ def getPlaintext(text, key1):
 def usage():
     name = os.path.basename(__file__)
     print(f"Usage: python {name} [input=string filename] [output=string filename] [key=string] [op=encrypt/decrypt]")
-    print(f"Example:\n\t python {name} input=in1 output=out1 op=encrypt key1=machine key2=trex \n")
+    print(f"Example:\n\t python {name} input=INPU output=OUTPU op=encrypt key1=machine key2=trex \n")
     sys.exit()
 
 if __name__ == "__main__":
