@@ -3,7 +3,7 @@ import os
 from frequency import Frequency
 from math import log
 
-freqWords = open("Assignments/A05/words-by-frequency.txt").read().split()
+freqWords = open("Assignments/A05/wordsByFrequency.txt").read().split()
 wordcost = dict((k, log((i+1)*log(len(freqWords)))) for i,k in enumerate(freqWords))
 maxword = max(len(x) for x in freqWords)
 
