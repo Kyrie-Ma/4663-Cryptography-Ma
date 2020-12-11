@@ -19,12 +19,11 @@ from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.asymmetric import padding
 
 
-TOKEN = '892db29a750c4bd0e87184c04db19237ece'
-UID = '8020'
+TOKEN = 'ad3bc5b7252903df6e679d366c8edf4b'
+UID = '5892100'
 API = 'http://msubackend.xyz/api/?route='
-USERS = {}
-PUBKEYS = {}
-
+USERS = {Kyrie}
+PUBKEYS = {fortest}
 
 def loadPubKey(pubkey):
     return serialization.load_pem_public_key(pubkey)
